@@ -1,0 +1,1947 @@
+Using pre-set license
+Pro License: NO
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.14f1/2021.1.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62051
+Successfully changed project path to: /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge
+/Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 116.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.15f1 (e767a7370072)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.14f1/2021.1.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-07-20 19:54:03.345 Unity[31638:870096] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-07-20 19:54:03.345 Unity[31638:870096] Metal devices available: 1
+2021-07-20 19:54:03.345 Unity[31638:870096] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-07-20 19:54:03.346 Unity[31638:870096] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.14f1/2021.1.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.14f1/2021.1.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.14f1/2021.1.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56638
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.14f1/2021.1.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.14f1/2021.1.15f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000724 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 121.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3096ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005212 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 143.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.385 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2386ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2033ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (590ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (1009ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (144ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (727ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.14f1/2021.1.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3652 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.9 MB.
+System memory in use after: 246.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4093.
+Total: 3.854466 ms (FindLiveObjects: 0.379364 ms CreateObjectMapping: 0.226492 ms MarkObjects: 3.161471 ms  DeleteObjects: 0.085909 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayerImput.inputactions
+  artifactKey: Guid(cea94342bfbf7429fa9f830c5960c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerImput.inputactions using Guid(cea94342bfbf7429fa9f830c5960c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3093d76dc6577e914dc1d2d9d22291ab') in 0.963782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.963689 seconds.
+  path: Assets/Scripts/PlayerImput.cs
+  artifactKey: Guid(27d642143e8f747fe96e07af62cfc5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerImput.cs using Guid(27d642143e8f747fe96e07af62cfc5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a5378cb68f534997aff5907664626e') in 0.696483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.014763 seconds.
+  path: Assets/Scripts/PlayerImput.inputactions
+  artifactKey: Guid(cea94342bfbf7429fa9f830c5960c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerImput.inputactions using Guid(cea94342bfbf7429fa9f830c5960c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801cf2283342594942970a3a3b111eca') in 0.014741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 311.592241 seconds.
+  path: Assets/Scripts/PlayerImput.cs
+  artifactKey: Guid(27d642143e8f747fe96e07af62cfc5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerImput.cs using Guid(27d642143e8f747fe96e07af62cfc5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922540fd51cfdcd1218e69260aec0da2') in 0.002575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.872323 seconds.
+  path: Assets/Scripts/PlayerImput.inputactions
+  artifactKey: Guid(cea94342bfbf7429fa9f830c5960c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerImput.inputactions using Guid(cea94342bfbf7429fa9f830c5960c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9920981cd9b1e5c77e052c0437bb44a4') in 0.004709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1308.332717 seconds.
+  path: Assets/HelloMarioAssets
+  artifactKey: Guid(f36e1b3953b4b4c48ab430ee174aa858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets using Guid(f36e1b3953b4b4c48ab430ee174aa858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d87de7456b3ef311c2e004a6584fb52') in 0.013174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 206.600810 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/Wait.fbx
+  artifactKey: Guid(a6ef41f2b994a95458810445d7566556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/Wait.fbx using Guid(a6ef41f2b994a95458810445d7566556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a2fd60697100a33efe7133e080f5b3') in 0.481243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.531569 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaCourseSelectSurprise.fbx
+  artifactKey: Guid(4008de588fe4cc54087a2a4d7cd2fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaCourseSelectSurprise.fbx using Guid(4008de588fe4cc54087a2a4d7cd2fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb82f3303cce72136072169a2d63eae') in 0.009457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDashFast.fbx
+  artifactKey: Guid(02539c5ef70e96f4586da3b102dd931c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDashFast.fbx using Guid(02539c5ef70e96f4586da3b102dd931c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7b2a0a795008bc1e5b01bba7e87e6b') in 0.009667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDokanOut.fbx
+  artifactKey: Guid(17144205113e2604694edf98925f5388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDokanOut.fbx using Guid(17144205113e2604694edf98925f5388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e8b51b0473f94bd6539d8f09c60e03') in 0.008232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDokanJump.fbx
+  artifactKey: Guid(ff4f689c68f7b5243b29cf198498fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDokanJump.fbx using Guid(ff4f689c68f7b5243b29cf198498fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283e2b87b25b46b62fee47d28b67cec5') in 0.011469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantHipDropStart.fbx
+  artifactKey: Guid(fa36cc8273a216148ab2faf49122b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantHipDropStart.fbx using Guid(fa36cc8273a216148ab2faf49122b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea802f75533c5b48bba009fab87509a') in 0.008222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDashStart.fbx
+  artifactKey: Guid(3fc3cffffe904ef48b29bc633b00f9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDashStart.fbx using Guid(3fc3cffffe904ef48b29bc633b00f9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0681fddd15cb817c9332ae562e744d77') in 0.009182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantJump2.fbx
+  artifactKey: Guid(420139ab7130e324089276b269b1c659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantJump2.fbx using Guid(420139ab7130e324089276b269b1c659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1381717335427f4361f617932f6c48e') in 0.007580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaFallLoop.fbx
+  artifactKey: Guid(abd50edd140ab3449ac68fa3d395ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaFallLoop.fbx using Guid(abd50edd140ab3449ac68fa3d395ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06211d570866a221fbb200f42b47e25f') in 0.006910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDokanIn.fbx
+  artifactKey: Guid(4efa840904a63224990b3d07a17444e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDokanIn.fbx using Guid(4efa840904a63224990b3d07a17444e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e7737f26c03914f5328d36ec504662') in 0.008111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDieOver.fbx
+  artifactKey: Guid(1a2ebf59f05d1ef4eb5a215fdc80c7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDieOver.fbx using Guid(1a2ebf59f05d1ef4eb5a215fdc80c7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5138fb81ef5222046fcca37f876b4c23') in 0.009671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaFall.fbx
+  artifactKey: Guid(0659371d5f8146e46847d5444cda8dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaFall.fbx using Guid(0659371d5f8146e46847d5444cda8dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc84953c0b990c2955009d38a1bff3b') in 0.007342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantJump.fbx
+  artifactKey: Guid(c633349c965d13549bb49297d57a99ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantJump.fbx using Guid(c633349c965d13549bb49297d57a99ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea26850f801bc90032478c0df5720962') in 0.007320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantDashStart.fbx
+  artifactKey: Guid(1c09fad12b91b3849a70b2dcdf05718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantDashStart.fbx using Guid(1c09fad12b91b3849a70b2dcdf05718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a231387dee885bb81cc12d1f4ada10f3') in 0.007361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantFall.fbx
+  artifactKey: Guid(0d70e04e44dcce847929518d22ad3803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantFall.fbx using Guid(0d70e04e44dcce847929518d22ad3803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675b931021a010c7033d30a4b4c03c09') in 0.005642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDoorIn.fbx
+  artifactKey: Guid(1a9349895610278478db8963c308adae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDoorIn.fbx using Guid(1a9349895610278478db8963c308adae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3e7de2f6f37a0ab86d5d5b034727c6') in 0.008648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantDash.fbx
+  artifactKey: Guid(c93a54c0f30f3894e9aa1a6e2a77ea8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantDash.fbx using Guid(c93a54c0f30f3894e9aa1a6e2a77ea8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1211c852f7df302c6b08e176f1e205') in 0.007984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantHipDropLand.fbx
+  artifactKey: Guid(463d2c2b6b49c9243a09a5f2d5778f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantHipDropLand.fbx using Guid(463d2c2b6b49c9243a09a5f2d5778f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec660e18b05ab8e63ed179e5aba1d59') in 0.009152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDoorOut.fbx
+  artifactKey: Guid(e821be6f6c7033547965ae5c05957a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDoorOut.fbx using Guid(e821be6f6c7033547965ae5c05957a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd055e12055cf97f717fded37f7cd23') in 0.010197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantJump3.fbx
+  artifactKey: Guid(7f62211aa7f75fc4f9d77117b9482763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantJump3.fbx using Guid(7f62211aa7f75fc4f9d77117b9482763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931aba1265dcce8f278ca0762c8ca9ae') in 0.008112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDokanOutUpsideDown.fbx
+  artifactKey: Guid(fb20977fdeb893b4989fad42d5d64943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDokanOutUpsideDown.fbx using Guid(fb20977fdeb893b4989fad42d5d64943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddb7798c4035e421fd2b52a7969e7d8') in 0.007661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDokanReady.fbx
+  artifactKey: Guid(49cf8d7db935a774997db7ff46d91f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDokanReady.fbx using Guid(49cf8d7db935a774997db7ff46d91f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5d34e1e2bfab2579c9d0004cb51525') in 0.008387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDash.fbx
+  artifactKey: Guid(7acd0bdb161c6b74b9d4594081a88970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDash.fbx using Guid(7acd0bdb161c6b74b9d4594081a88970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769b0a0ff5fd89a8da7a49394accc145') in 0.008503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDashDashPanel.fbx
+  artifactKey: Guid(1b7cca86ed921da4cb013ac8e244de82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDashDashPanel.fbx using Guid(1b7cca86ed921da4cb013ac8e244de82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e6f075a01e4d1051fe4829b69a3733') in 0.008390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDokanSideIn.fbx
+  artifactKey: Guid(2500754650acf424c9a38935754b4062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDokanSideIn.fbx using Guid(2500754650acf424c9a38935754b4062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a96ce23eebf57fe024ae0fa2b60334') in 0.007801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaCourseSelectWait.fbx
+  artifactKey: Guid(8cf885577adeb2e4f98b2ac2cff24221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaCourseSelectWait.fbx using Guid(8cf885577adeb2e4f98b2ac2cff24221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadfc2166472d0a111895609717b4204') in 0.008374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaFireFire.fbx
+  artifactKey: Guid(282b673b6bcd90e40af47f0c60b64a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaFireFire.fbx using Guid(282b673b6bcd90e40af47f0c60b64a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f97d139fb71655092d42c33524677be') in 0.006517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantHipDrop.fbx
+  artifactKey: Guid(f48ba304d16da83429b41d6ec601fffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantHipDrop.fbx using Guid(f48ba304d16da83429b41d6ec601fffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836f6f9fd82393c42a6b8a57193a635a') in 0.008818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDokanJumpReverse.fbx
+  artifactKey: Guid(f79e59b7a5cc76c449d89785da868285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDokanJumpReverse.fbx using Guid(f79e59b7a5cc76c449d89785da868285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0f72d4fc602049a17e3c49cce73531') in 0.007501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantJumpReverse.fbx
+  artifactKey: Guid(12642a0a59265454980bf9adc41ca0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantJumpReverse.fbx using Guid(12642a0a59265454980bf9adc41ca0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c456420f0615dc03fd900aa35918c5d') in 0.006961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDashSign.fbx
+  artifactKey: Guid(0cbe0d990854fcc4397ccf1850e0ab2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDashSign.fbx using Guid(0cbe0d990854fcc4397ccf1850e0ab2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b794b349e24d0785ffaabb62dd9aa7f2') in 0.007900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaDashSuperStar.fbx
+  artifactKey: Guid(c0ad8e0fbccce0340bc3bd974ba08d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaDashSuperStar.fbx using Guid(c0ad8e0fbccce0340bc3bd974ba08d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440606b9506d9964a0311c836762a9b7') in 0.009758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.625459 seconds.
+  path: Assets/HelloMarioAssets/Player/AnimTail/SwimWalk.fbx
+  artifactKey: Guid(19033fd48c2c98a4a873619a4142b73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/AnimTail/SwimWalk.fbx using Guid(19033fd48c2c98a4a873619a4142b73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609323b672697a04d9faf567bec624f0') in 0.009895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/HelloMarioAssets/Player/AnimTail/TreeHandStandWait.fbx
+  artifactKey: Guid(61dd162b2b0612d4fbb8bf9ed686a242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/AnimTail/TreeHandStandWait.fbx using Guid(61dd162b2b0612d4fbb8bf9ed686a242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacc24008d6ab7762021538e0d748a42') in 0.010103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WallSlideL.fbx
+  artifactKey: Guid(a66bb9a40b5595e44a492a0a572947e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WallSlideL.fbx using Guid(a66bb9a40b5595e44a492a0a572947e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9ed45b25fc38b6a943bbb1762194a5') in 0.014358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WallHitLandSquat.fbx
+  artifactKey: Guid(9fe28ad039eadca49b4fa3c902c14ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WallHitLandSquat.fbx using Guid(9fe28ad039eadca49b4fa3c902c14ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bd5dbe6bd9ae34d13c996917e7d494') in 0.008759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WallJump.fbx
+  artifactKey: Guid(23f74802a183df24db4c174d5e9cf1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WallJump.fbx using Guid(23f74802a183df24db4c174d5e9cf1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72886934c09b86a38901368d831f15d0') in 0.007221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WaitStatue.fbx
+  artifactKey: Guid(04b7cba9fe31b4d408f4ce3faec455ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WaitStatue.fbx using Guid(04b7cba9fe31b4d408f4ce3faec455ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de715bcd62f9565369abf4d27d0ed536') in 0.006691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WalkSoft.fbx
+  artifactKey: Guid(13a304dc6ace82a4d8c1a6cd0503ee03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WalkSoft.fbx using Guid(13a304dc6ace82a4d8c1a6cd0503ee03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb118afdf82f0e6d0695468d0264e4ee') in 0.007931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WallHitLand.fbx
+  artifactKey: Guid(3535914cdd554db419cff53559667ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WallHitLand.fbx using Guid(3535914cdd554db419cff53559667ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5690f4b57a0ec3fb44be1c368e1d4780') in 0.008180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/HelloMarioAssets/Player/AnimTail/WallHitLand.fbx
+  artifactKey: Guid(7700880a21e793b438e2d6fd18fc01a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/AnimTail/WallHitLand.fbx using Guid(7700880a21e793b438e2d6fd18fc01a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a2991812584c784ebfea39085c0d82') in 0.005675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WallHit.fbx
+  artifactKey: Guid(2fc418593085f1a479969618c413840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WallHit.fbx using Guid(2fc418593085f1a479969618c413840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c57e790efe0012acebb8270c31972af') in 0.007616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/TrapezeWait.fbx
+  artifactKey: Guid(7cff66c96ee9bf742a86d370f10d2080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/TrapezeWait.fbx using Guid(7cff66c96ee9bf742a86d370f10d2080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef77b6ac2e01a64b094d249d090c77b') in 0.005521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/SwimWalk.fbx
+  artifactKey: Guid(560b3a44bc04dda458e18aacc429dc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/SwimWalk.fbx using Guid(560b3a44bc04dda458e18aacc429dc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cc54d2a3700f4d70f92716e4db6728') in 0.008224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WaitBattle.fbx
+  artifactKey: Guid(273542cbe55a0274da7a7d3175c202dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WaitBattle.fbx using Guid(273542cbe55a0274da7a7d3175c202dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598d042aeaf236c1a8cecabf36dd96b7') in 0.008225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WallKeep.fbx
+  artifactKey: Guid(eb68cc7c70100084aa22dbfe01d9dcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WallKeep.fbx using Guid(eb68cc7c70100084aa22dbfe01d9dcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ab34ae1716fa7ab252c011fccbd389') in 0.006416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/TrapezeWaitStart.fbx
+  artifactKey: Guid(c1f510ccdd6b340458c0c9f8185f7a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/TrapezeWaitStart.fbx using Guid(c1f510ccdd6b340458c0c9f8185f7a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265aed63a79d65c37f036afa52a1638e') in 0.007263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/Walk.fbx
+  artifactKey: Guid(334f153510a45714ca55556f2f10ff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/Walk.fbx using Guid(334f153510a45714ca55556f2f10ff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c77f61bfa72a32647759942d486f10') in 0.006130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WallKeepReverse.fbx
+  artifactKey: Guid(b6432c3a642515d48b3a01ffdb61b6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WallKeepReverse.fbx using Guid(b6432c3a642515d48b3a01ffdb61b6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d0576d420c38730305366c300d20d5') in 0.007494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/WallSlideR.fbx
+  artifactKey: Guid(fbfbc0eb1fc44554f96ded90a178f958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/WallSlideR.fbx using Guid(fbfbc0eb1fc44554f96ded90a178f958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb26e2e8a92364ea45312ad17d7981f') in 0.009607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/TreeWait.fbx
+  artifactKey: Guid(9a553ac9bb86c3e4f8b1b574e452ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/TreeWait.fbx using Guid(9a553ac9bb86c3e4f8b1b574e452ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe381fc785c8aae8313617b418bc898') in 0.007594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/HelloMarioAssets/Player/AnimTail/Wait.fbx
+  artifactKey: Guid(80c9fa1194246bf46b77f9713a81630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/AnimTail/Wait.fbx using Guid(80c9fa1194246bf46b77f9713a81630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa3b1c170a810eefe7716b7cb0f535c') in 0.005714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/TreeHandStandWait.fbx
+  artifactKey: Guid(133d70d2c3030c74c8e3c750c7c25bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/TreeHandStandWait.fbx using Guid(133d70d2c3030c74c8e3c750c7c25bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882f459cbb4b25db8650b69867383f4d') in 0.006426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/HelloMarioAssets/Player/AnimTail/Walk.fbx
+  artifactKey: Guid(6c70e3f66d25d0c46bcea26559e97aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/AnimTail/Walk.fbx using Guid(6c70e3f66d25d0c46bcea26559e97aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cd9c0f3b6e7bef509292a23289e9f0') in 0.006209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317478 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RouteDokanBazookaWait.fbx
+  artifactKey: Guid(b1d03fd4aa79934488952ee0e760d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RouteDokanBazookaWait.fbx using Guid(b1d03fd4aa79934488952ee0e760d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64af6df9cf1457131cb9cfb9c57944a') in 0.006504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/HelloMarioAssets/Player/AnimTail/SquatWait.fbx
+  artifactKey: Guid(9ea5fb2764a4e8547945ec04eeea3b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/AnimTail/SquatWait.fbx using Guid(9ea5fb2764a4e8547945ec04eeea3b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1972e4404d405b5f35f44389318b57a') in 0.007127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RouteDokanLaunchWait.fbx
+  artifactKey: Guid(944e719900b967245bbd5b35e1f1397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RouteDokanLaunchWait.fbx using Guid(944e719900b967245bbd5b35e1f1397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5573092bd0031107e4761e9da0e90a55') in 0.006760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/SwimWait.fbx
+  artifactKey: Guid(5a5fbf81c38bae6438c20e1fd713c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/SwimWait.fbx using Guid(5a5fbf81c38bae6438c20e1fd713c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc4c2e3ab1b9edffa529bb4b5b682cc') in 0.006585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RouteDokanLauncherWait.fbx
+  artifactKey: Guid(5290149ee3fcc3b49b482c1c90c91447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RouteDokanLauncherWait.fbx using Guid(5290149ee3fcc3b49b482c1c90c91447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae269f14436cec33af6595287f548e7') in 0.009122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RouteDokanWait.fbx
+  artifactKey: Guid(30467167d4514c4429eb40e16b043f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RouteDokanWait.fbx using Guid(30467167d4514c4429eb40e16b043f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cbf94b5616cf2d3edc2025dc32db8c') in 0.007066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/HelloMarioAssets/Player/AnimTail/SwimStandWait.fbx
+  artifactKey: Guid(9fee3dbd4e5b9824a84779c2e2325f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/AnimTail/SwimStandWait.fbx using Guid(9fee3dbd4e5b9824a84779c2e2325f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b59314199f289c7deae9e3ca446cfd') in 0.008471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/SkateShoesWait.fbx
+  artifactKey: Guid(0e4a3fe76fd825d4b8857e0baa120672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/SkateShoesWait.fbx using Guid(0e4a3fe76fd825d4b8857e0baa120672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c1e72fa9373441a689a0e30afa7bb2') in 0.008066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/SwimStandWait.fbx
+  artifactKey: Guid(a0b771e333df4d74bad55c757e4da27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/SwimStandWait.fbx using Guid(a0b771e333df4d74bad55c757e4da27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8299d39277d683df944fd670da9eff0') in 0.007429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/SquatWait.fbx
+  artifactKey: Guid(2ea261090253a334fb1939547694ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/SquatWait.fbx using Guid(2ea261090253a334fb1939547694ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba78e7acddcc9c39bcb0024ce7938928') in 0.007291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.350076 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaRaidonWait.fbx
+  artifactKey: Guid(107a4630c3489214095f1e3a5b64e773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaRaidonWait.fbx using Guid(107a4630c3489214095f1e3a5b64e773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3d097de62fe11cfa415db1dacf1bd4') in 0.009265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaTreeHandStandWait.fbx
+  artifactKey: Guid(42d4d8dbc6aebba4889973b801214114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaTreeHandStandWait.fbx using Guid(42d4d8dbc6aebba4889973b801214114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc28425b1c73ad1f6fd64dadaad38770') in 0.009749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaSkateShoesWait.fbx
+  artifactKey: Guid(ff1d18eff16554a498e10518a34cbda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaSkateShoesWait.fbx using Guid(ff1d18eff16554a498e10518a34cbda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f03348eac755df7522ca1609b52bccf') in 0.012863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaSwimStandWait.fbx
+  artifactKey: Guid(c050624d81b316c4a99b1fe064b5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaSwimStandWait.fbx using Guid(c050624d81b316c4a99b1fe064b5511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da768d77d71179720c2384aedf3654e') in 0.008594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaWaitBattle.fbx
+  artifactKey: Guid(8fbe1e028a71f8d44a5dcb2fe3c8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaWaitBattle.fbx using Guid(8fbe1e028a71f8d44a5dcb2fe3c8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0954516d63524231048d771fba0e75') in 0.007474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaTreeWait.fbx
+  artifactKey: Guid(978b7ca349c26cb42be927358650e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaTreeWait.fbx using Guid(978b7ca349c26cb42be927358650e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44cd6dad73c01d1f1f9aa662ef065c1') in 0.005485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaSquatWait.fbx
+  artifactKey: Guid(b2dd18a502625a0459b65f01c9c5c457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaSquatWait.fbx using Guid(b2dd18a502625a0459b65f01c9c5c457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7f1049d4237af2ce9fbaeb25099faa') in 0.006825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaSwimWait.fbx
+  artifactKey: Guid(9c0978becd23b7e4495aa72ca3c10f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaSwimWait.fbx using Guid(9c0978becd23b7e4495aa72ca3c10f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34bab4f4d91569bdd66d2f666c25648') in 0.007576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaWait.fbx
+  artifactKey: Guid(367a47483d697384fb973498e610cf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaWait.fbx using Guid(367a47483d697384fb973498e610cf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ad175a727fa7eb3e0d2452314e4ca0') in 0.008268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.768723 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectRun.fbx
+  artifactKey: Guid(905e3a0a49c245042b908f1932c6e562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectRun.fbx using Guid(905e3a0a49c245042b908f1932c6e562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb62b9e4eb3e2c55299b90fd0214c8ec') in 0.008336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/Run.fbx
+  artifactKey: Guid(633d4a2030986a844a4e82abcfade002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/Run.fbx using Guid(633d4a2030986a844a4e82abcfade002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c6e59f4b3afc3a9b8c36f87e0478ad') in 0.010870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaBoomerangRun.fbx
+  artifactKey: Guid(b3f894af400d77f4b8044857d299b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaBoomerangRun.fbx using Guid(b3f894af400d77f4b8044857d299b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78f153d5c1e80c987d3fbd9883b2edf') in 0.014931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000963 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantRun.fbx
+  artifactKey: Guid(08bfcbab5cecb4c47b77c60b478300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantRun.fbx using Guid(08bfcbab5cecb4c47b77c60b478300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fca9d3532637c56691c2d60cf4c825f') in 0.008478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaRaccoonDogWhiteRun.fbx
+  artifactKey: Guid(6b285799093ca4445afd3b62dc01192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaRaccoonDogWhiteRun.fbx using Guid(6b285799093ca4445afd3b62dc01192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33acb5713012acc1946906cf60a26f8') in 0.009224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachCourseSelectRun.fbx
+  artifactKey: Guid(972e4a9c5bad8bb4b90010e47f6c58e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachCourseSelectRun.fbx using Guid(972e4a9c5bad8bb4b90010e47f6c58e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bde3237f88f207262aee2256a0be4dd') in 0.006074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaRaccoonDogRun.fbx
+  artifactKey: Guid(cd75b906531eae243a18c9756596571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaRaccoonDogRun.fbx using Guid(cd75b906531eae243a18c9756596571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c7f9bb91aadb4d52872e3c8b2721be') in 0.007055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachGiantRun.fbx
+  artifactKey: Guid(72cdae31963873848bd6b418b37d374f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachGiantRun.fbx using Guid(72cdae31963873848bd6b418b37d374f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b40a1a26a63348c815f8f9f0bfb49a') in 0.010984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaCourseSelectRun.fbx
+  artifactKey: Guid(b92025df5c63d4148a29cb15480b1720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaCourseSelectRun.fbx using Guid(b92025df5c63d4148a29cb15480b1720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b85b99bc7bf2f8b9788c6d893e42f8') in 0.008158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RunEnd.fbx
+  artifactKey: Guid(a6f4c6c07f8c6e840b9a9047f9d5ad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RunEnd.fbx using Guid(a6f4c6c07f8c6e840b9a9047f9d5ad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a67045744fb2caa8bfa625b9a70c3e') in 0.006736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaRun.fbx
+  artifactKey: Guid(038f816b47ac6ac48a5b766e6be76849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaRun.fbx using Guid(038f816b47ac6ac48a5b766e6be76849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4456984bdca363520456df451ca58ba') in 0.006168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachBoomerangRun.fbx
+  artifactKey: Guid(1f5c273475b0df74bbf19d5d6558eb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachBoomerangRun.fbx using Guid(1f5c273475b0df74bbf19d5d6558eb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e244ef3ed22bf0007b0764927c8903c4') in 0.007032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/KinopioGiantRun.fbx
+  artifactKey: Guid(a561c584479005246bc8bc943ffe5089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/KinopioGiantRun.fbx using Guid(a561c584479005246bc8bc943ffe5089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4565399b5e080ebff2c75f49b2825a') in 0.010816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/GiantRun.fbx
+  artifactKey: Guid(0f481bc06c384d2418c95ebad184c21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/GiantRun.fbx using Guid(0f481bc06c384d2418c95ebad184c21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c959371445bcee1da8ed1a26948eb19') in 0.007402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/KinopioCourseSelectRun.fbx
+  artifactKey: Guid(e3a3be96509cef34c98274f0960b2586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/KinopioCourseSelectRun.fbx using Guid(e3a3be96509cef34c98274f0960b2586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc55c1e9a437d324efc5d80965882f3e') in 0.006102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/KinopioBrigadeRun.fbx
+  artifactKey: Guid(7791914a965e14144a52750a3820e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/KinopioBrigadeRun.fbx using Guid(7791914a965e14144a52750a3820e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e98bc0a770d48efe38c4ef77f6c9a5a') in 0.005415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachRun.fbx
+  artifactKey: Guid(22ede132925ffb549a95a5d0119e0593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachRun.fbx using Guid(22ede132925ffb549a95a5d0119e0593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e3d7a1c2e34dae478eb951eec7d88b') in 0.006274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.649925 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/GiantWalk.fbx
+  artifactKey: Guid(3483c5fa81974294592614a4af318704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/GiantWalk.fbx using Guid(3483c5fa81974294592614a4af318704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6364a49c705613fcd1becc38131fbefa') in 0.010512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachSquatWalk.fbx
+  artifactKey: Guid(7da807c9a6f0c5447b239dec85945913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachSquatWalk.fbx using Guid(7da807c9a6f0c5447b239dec85945913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd921126b5c17c15bf98b64c3ec8914d3') in 0.010721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaRaccoonDogWalk.fbx
+  artifactKey: Guid(4d50076e1a2e7cb449e83d5e46399846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaRaccoonDogWalk.fbx using Guid(4d50076e1a2e7cb449e83d5e46399846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e6cfffc5dfafe8ed0804cbb046d0b4') in 0.016727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaGiantWalk.fbx
+  artifactKey: Guid(aa5041e1caf6dac4d8c07ca0b323936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaGiantWalk.fbx using Guid(aa5041e1caf6dac4d8c07ca0b323936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b744fb54b20a0edebabed113be0fb2e') in 0.008566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaSwimWalk.fbx
+  artifactKey: Guid(3be1e8e713b885d4c9f4d1f944501792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaSwimWalk.fbx using Guid(3be1e8e713b885d4c9f4d1f944501792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52377d643a76d67b5c6a19a3855ca081') in 0.008169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachWalk.fbx
+  artifactKey: Guid(86779fb54bb23a948ac5727253e58f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachWalk.fbx using Guid(86779fb54bb23a948ac5727253e58f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13043f49d9f8663e5b62412f76d97032') in 0.007241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachSwimSquatWalk.fbx
+  artifactKey: Guid(12f0bbe5d53b4054783eb701808117ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachSwimSquatWalk.fbx using Guid(12f0bbe5d53b4054783eb701808117ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a1fea5fde69428b15ee957f030342f') in 0.006716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/KinopioSwimSquatWalk.fbx
+  artifactKey: Guid(b119af21d8e335e479b22a98fb48db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/KinopioSwimSquatWalk.fbx using Guid(b119af21d8e335e479b22a98fb48db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d108e2830cced909afc6b4fc0aba0f') in 0.007118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachGiantWalk.fbx
+  artifactKey: Guid(f56360b4678dcb24bb9a6b0ec03eab9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachGiantWalk.fbx using Guid(f56360b4678dcb24bb9a6b0ec03eab9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb6ecb8c0fb5215c3a94e37c36ecba6') in 0.007206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/SwimSquatWalk.fbx
+  artifactKey: Guid(0285834b2fe98f949bddf40d34428cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/SwimSquatWalk.fbx using Guid(0285834b2fe98f949bddf40d34428cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd108cc8c5fdb4f75c366c738d8ce25e8') in 0.006703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaRaccoonDogWhiteWalk.fbx
+  artifactKey: Guid(c4afd476a30677b4ab3f7064d97efb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaRaccoonDogWhiteWalk.fbx using Guid(c4afd476a30677b4ab3f7064d97efb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486d491a42ef17536b12275bfc9fc904') in 0.006528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaWalk.fbx
+  artifactKey: Guid(e6e46107e5f84ae4fbcca3e0b0561d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaWalk.fbx using Guid(e6e46107e5f84ae4fbcca3e0b0561d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b48c826947d8e97734c072488bffb4c') in 0.007154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaBoomerangWalk.fbx
+  artifactKey: Guid(5bb334fcd34f4ca4b85bcfa7c6ff8f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaBoomerangWalk.fbx using Guid(5bb334fcd34f4ca4b85bcfa7c6ff8f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d15246164547247a261a4baea942c97') in 0.007734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachSwimWalk.fbx
+  artifactKey: Guid(623a8dce2fc3079469fc494d7e54482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachSwimWalk.fbx using Guid(623a8dce2fc3079469fc494d7e54482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327e7f8f9ad45daf0f7e0fbc04b324f2') in 0.007354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaSwimSquatWalk.fbx
+  artifactKey: Guid(b3c401d507914b2428a79a1f89f30d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaSwimSquatWalk.fbx using Guid(b3c401d507914b2428a79a1f89f30d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d754aeca06c31ce4f0c1a4ec309080') in 0.005671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/RosettaSquatWalk.fbx
+  artifactKey: Guid(84f343de1bfce604b89af4165e66bdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/RosettaSquatWalk.fbx using Guid(84f343de1bfce604b89af4165e66bdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be6c68c0d2cf149e329103e1abf19a3') in 0.008650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/SquatWalk.fbx
+  artifactKey: Guid(aadec714e49210c4dbda2ec1864b4f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/SquatWalk.fbx using Guid(aadec714e49210c4dbda2ec1864b4f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d0b09864633307e8fa2abf10ec6426') in 0.008311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/KinopioGiantWalk.fbx
+  artifactKey: Guid(d91e5f817f51a0347985cbe3423a9935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/KinopioGiantWalk.fbx using Guid(d91e5f817f51a0347985cbe3423a9935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3207071ea98e9df090841ff4698785fa') in 0.007322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/KinopioBrigadeWalk.fbx
+  artifactKey: Guid(d3edaa199a44cd744ac762e706fcd1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/KinopioBrigadeWalk.fbx using Guid(d3edaa199a44cd744ac762e706fcd1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6f3753450982f62df45122d1eb0317') in 0.008280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/PeachBoomerangWalk.fbx
+  artifactKey: Guid(25de6498e6776d941b5ac1e9d9184c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/PeachBoomerangWalk.fbx using Guid(25de6498e6776d941b5ac1e9d9184c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ebd4e4cf0b609fd0407948812e6181') in 0.007337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.921856 seconds.
+  path: Assets/Animations/Wait.fbx
+  artifactKey: Guid(a6ef41f2b994a95458810445d7566556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wait.fbx using Guid(a6ef41f2b994a95458810445d7566556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10590541fd8d1e33a3faccc69c24033d') in 0.005115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.742961 seconds.
+  path: Assets/Animations/Run.fbx
+  artifactKey: Guid(633d4a2030986a844a4e82abcfade002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Run.fbx using Guid(633d4a2030986a844a4e82abcfade002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbc738d7f82264dec40ebc98f1f054a') in 0.006216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.084195 seconds.
+  path: Assets/Animations/Walk.fbx
+  artifactKey: Guid(334f153510a45714ca55556f2f10ff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Walk.fbx using Guid(334f153510a45714ca55556f2f10ff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a518449b5b714edd9fad50ce398d40df') in 0.006932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.059774 seconds.
+  path: Assets/Animations/Run.fbx
+  artifactKey: Guid(633d4a2030986a844a4e82abcfade002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Run.fbx using Guid(633d4a2030986a844a4e82abcfade002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042c37b9667a68cdc63ac45f9317cb6d') in 0.005065 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005283 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1879ms)
+		BeginReloadAssembly (294ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (191ms)
+		EndReloadAssembly (1500ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (594ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (417ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.7 MB.
+System memory in use after: 249.0 MB.
+
+Unloading 270 unused Assets to reduce memory usage. Loaded Objects now: 3844.
+Total: 6.868482 ms (FindLiveObjects: 0.952838 ms CreateObjectMapping: 0.381553 ms MarkObjects: 5.309898 ms  DeleteObjects: 0.222016 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 195.238533 seconds.
+  path: Assets/Scripts/AnimationAndMovementController.cs
+  artifactKey: Guid(c549cea9acb2549c2a63f468726a6022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnimationAndMovementController.cs using Guid(c549cea9acb2549c2a63f468726a6022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b76928fca4b703dd2c9208ee642a973') in 0.010215 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006825 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1619ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (1341ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (544ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 241.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3847.
+Total: 3.062528 ms (FindLiveObjects: 0.330664 ms CreateObjectMapping: 0.192732 ms MarkObjects: 2.466293 ms  DeleteObjects: 0.071649 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003934 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1600ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1342ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 241.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3849.
+Total: 4.325738 ms (FindLiveObjects: 0.399331 ms CreateObjectMapping: 0.243651 ms MarkObjects: 3.602865 ms  DeleteObjects: 0.078389 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 527.257473 seconds.
+  path: Assets/Scripts/KeyInput.inputactions
+  artifactKey: Guid(bdabd63980f76455aa36f110e1cf3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KeyInput.inputactions using Guid(bdabd63980f76455aa36f110e1cf3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69aec538dea83682646576b52d53ad9') in 0.029932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.476654 seconds.
+  path: Assets/Scripts/KeyInput.inputactions
+  artifactKey: Guid(bdabd63980f76455aa36f110e1cf3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KeyInput.inputactions using Guid(bdabd63980f76455aa36f110e1cf3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fae15da3184ec8af07fe3d4b9ffa7ea') in 0.006227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.720406 seconds.
+  path: Assets/Scripts/KeyInput.inputactions
+  artifactKey: Guid(bdabd63980f76455aa36f110e1cf3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KeyInput.inputactions using Guid(bdabd63980f76455aa36f110e1cf3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184ec978b43da44a8e2a21f3670ca9c0') in 0.003773 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003247 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1699ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1320ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (383ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.6 MB.
+System memory in use after: 241.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3853.
+Total: 2.886286 ms (FindLiveObjects: 0.256891 ms CreateObjectMapping: 0.162890 ms MarkObjects: 2.406158 ms  DeleteObjects: 0.059087 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.124897 seconds.
+  path: Assets/Scripts/KeyInput.cs
+  artifactKey: Guid(8133437d8a49d4d50a9512a066457ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KeyInput.cs using Guid(8133437d8a49d4d50a9512a066457ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b395e93a79be5ecce8f21727ab7f27') in 0.007937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.252026 seconds.
+  path: Assets/Scripts/KeyInput.inputactions
+  artifactKey: Guid(bdabd63980f76455aa36f110e1cf3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KeyInput.inputactions using Guid(bdabd63980f76455aa36f110e1cf3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb2339725251e20a176e3a0545409f2') in 0.023612 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005780 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.565 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1566ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1316ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (533ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.9 MB.
+System memory in use after: 242.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3856.
+Total: 2.842380 ms (FindLiveObjects: 0.261373 ms CreateObjectMapping: 0.162454 ms MarkObjects: 2.362122 ms  DeleteObjects: 0.055151 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006033 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1630ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1369ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (565ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (379ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.1 MB.
+System memory in use after: 242.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3859.
+Total: 2.992911 ms (FindLiveObjects: 0.289987 ms CreateObjectMapping: 0.184385 ms MarkObjects: 2.458874 ms  DeleteObjects: 0.058251 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005485 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1787ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1497ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (598ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.4 MB.
+System memory in use after: 242.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 3.954333 ms (FindLiveObjects: 0.384910 ms CreateObjectMapping: 0.291429 ms MarkObjects: 3.213404 ms  DeleteObjects: 0.063214 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92.841258 seconds.
+  path: Assets/Scripts/KeyInput.cs
+  artifactKey: Guid(8133437d8a49d4d50a9512a066457ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KeyInput.cs using Guid(8133437d8a49d4d50a9512a066457ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae5679abe0c9964b3dad652f0fec60e') in 0.007510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.620721 seconds.
+  path: Assets/Scripts/AnimationAndMovementController.cs
+  artifactKey: Guid(c549cea9acb2549c2a63f468726a6022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnimationAndMovementController.cs using Guid(c549cea9acb2549c2a63f468726a6022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182cc0cb8d14942e2e1a3d7057aeebb1') in 0.002307 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005083 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1817ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1522ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (592ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (557ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.7 MB.
+System memory in use after: 242.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3865.
+Total: 3.858679 ms (FindLiveObjects: 0.468014 ms CreateObjectMapping: 0.247325 ms MarkObjects: 2.978756 ms  DeleteObjects: 0.162319 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.959321 seconds.
+  path: Assets/Animations/Walk.fbx
+  artifactKey: Guid(334f153510a45714ca55556f2f10ff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Walk.fbx using Guid(334f153510a45714ca55556f2f10ff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05d5fc10903b69d6fb1bfc9708e55ca') in 0.043796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.281167 seconds.
+  path: Assets/Animations/Wait.fbx
+  artifactKey: Guid(a6ef41f2b994a95458810445d7566556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wait.fbx using Guid(a6ef41f2b994a95458810445d7566556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9551645db2a7d2542bdab0a505e61f3') in 0.006156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.043377 seconds.
+  path: Assets/Animations/Run.fbx
+  artifactKey: Guid(633d4a2030986a844a4e82abcfade002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Run.fbx using Guid(633d4a2030986a844a4e82abcfade002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f868175d14e51370f110ee5cc0cf295e') in 0.006047 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002709 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1661ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1392ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (547ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (406ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.9 MB.
+System memory in use after: 243.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3868.
+Total: 3.629670 ms (FindLiveObjects: 0.291436 ms CreateObjectMapping: 0.234158 ms MarkObjects: 3.048379 ms  DeleteObjects: 0.054226 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 340.006685 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioBodyMat00.mat
+  artifactKey: Guid(10845279d5a3c1049aa2b82b774e8b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioBodyMat00.mat using Guid(10845279d5a3c1049aa2b82b774e8b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645262efb5046b7e68fa279bf5d94d85') in 0.540514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioHandMat00.mat
+  artifactKey: Guid(88ae764cd5b9efd43b91c2b61a2b74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioHandMat00.mat using Guid(88ae764cd5b9efd43b91c2b61a2b74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a613b94b1d3d24e0190e03a650d34b') in 0.020399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioHigeMat00.mat
+  artifactKey: Guid(09d93742e608a6b47923cdf4c3552e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioHigeMat00.mat using Guid(09d93742e608a6b47923cdf4c3552e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ff37aac6c58b852ee0fdcfe651c8e6') in 0.016799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioFaceMat00.mat
+  artifactKey: Guid(f7731e4ef86542d45b05d35cc0e45d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioFaceMat00.mat using Guid(f7731e4ef86542d45b05d35cc0e45d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce96aae77101c16d691c8b47b45c1b7') in 0.022145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioBodyMat01.mat
+  artifactKey: Guid(45325fd0388f3ec428947d0c4883cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioBodyMat01.mat using Guid(45325fd0388f3ec428947d0c4883cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a40462c3d333a9aedd338cfbd5d9021') in 0.017637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioRaccoonDogBodyMat01.mat
+  artifactKey: Guid(66fedb20b7bfeb74e889ea6a3245ac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioRaccoonDogBodyMat01.mat using Guid(66fedb20b7bfeb74e889ea6a3245ac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19a04f6b1a61b288d635b0d6d8536fd') in 0.017675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioMetalMat00.mat
+  artifactKey: Guid(38787c4810d4c7847b08fb2b1be0dfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioMetalMat00.mat using Guid(38787c4810d4c7847b08fb2b1be0dfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee63e61f5883a22483b32063f14cd1c') in 0.010750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioBoomerangSuitsMat00.mat
+  artifactKey: Guid(48d46d548966e62408232deaf3580181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioBoomerangSuitsMat00.mat using Guid(48d46d548966e62408232deaf3580181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9c3ea7b271218cd262d17bf3ad7546') in 0.014404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioRaccoonDogBodyMat00.mat
+  artifactKey: Guid(cb5884bddfc99a84fab3f5e3ddf7afd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioRaccoonDogBodyMat00.mat using Guid(cb5884bddfc99a84fab3f5e3ddf7afd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60119868248b80036f923e0109ea497') in 0.011647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioEyeMat00.mat
+  artifactKey: Guid(23b30e603733dd0409700ee3d324df6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioEyeMat00.mat using Guid(23b30e603733dd0409700ee3d324df6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec13fe8a2b8cf0fb74c9d26a3f52036') in 0.022506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioShoesMat00.mat
+  artifactKey: Guid(1bdea5a4f0add644a800c6d8dd440eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioShoesMat00.mat using Guid(1bdea5a4f0add644a800c6d8dd440eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8516d7483d717b765d90712f5e3440') in 0.027580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.138747 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mesh/MarioTail.FBX
+  artifactKey: Guid(3f2be863a4285b448a80109a6a92ec07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mesh/MarioTail.FBX using Guid(3f2be863a4285b448a80109a6a92ec07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620f7860f6a9a37e92723489513ca6cd') in 0.370361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.523203 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioBodyFix_alb.dds
+  artifactKey: Guid(4f5dcc215fe40624cbdf4c19e3e5ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioBodyFix_alb.dds using Guid(4f5dcc215fe40624cbdf4c19e3e5ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa57ef94cc327f21d32aaba1a6a6c6b0') in 0.809746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogWhiteBody_alb.png
+  artifactKey: Guid(64129dc9ccebdfc4b9b1eeab7bd69ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogWhiteBody_alb.png using Guid(64129dc9ccebdfc4b9b1eeab7bd69ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c4ddcce45a95c3c2ccf854db9c94dd') in 0.824670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogBody_spc.png
+  artifactKey: Guid(4525a01e83318664c9fa9ee034aa0787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogBody_spc.png using Guid(4525a01e83318664c9fa9ee034aa0787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45e44b93f29b3d097d3bc5cdb620e33') in 0.010483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioFace_alb.dds
+  artifactKey: Guid(aa45855c63b47e843be8fc48371b1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioFace_alb.dds using Guid(aa45855c63b47e843be8fc48371b1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5b4524ef2c57fdec015e6fc73eab0d') in 0.009404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogWhiteTail_alb.png
+  artifactKey: Guid(943e9470433dac64c88627df1684ceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogWhiteTail_alb.png using Guid(943e9470433dac64c88627df1684ceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5eca4fe7df1c0c6f43760c433a096a') in 0.018349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioBodyFixBlue_nrm.png
+  artifactKey: Guid(008c81a1b49e7f04e9551ba7ebf61e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioBodyFixBlue_nrm.png using Guid(008c81a1b49e7f04e9551ba7ebf61e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816a2faa3b7a09a1e52cf4d7219deafe') in 0.508349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogTail_spc.png
+  artifactKey: Guid(bd67da60431fb0942aef7fd6d26a3d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogTail_spc.png using Guid(bd67da60431fb0942aef7fd6d26a3d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b35abcb6c310270bc5cf1a02036e1b4') in 0.010919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioEye_alb.dds
+  artifactKey: Guid(e1acd6a9b51b9c144899c57cde59fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioEye_alb.dds using Guid(e1acd6a9b51b9c144899c57cde59fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1810fb4546703e488d89a7353c6d125') in 0.007765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioShoes_alb.dds
+  artifactKey: Guid(17992c96afbe6c94b8ba5f3f215d65a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioShoes_alb.dds using Guid(17992c96afbe6c94b8ba5f3f215d65a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4218f5511f8a09ce7b5f3c4ce1426892') in 0.011115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogBody_alb.png
+  artifactKey: Guid(7366ac4f34089564190f7f8d3ab4b7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogBody_alb.png using Guid(7366ac4f34089564190f7f8d3ab4b7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffd0123bdcc83c48e8be27049a5b22d') in 0.007920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioBodyFixRed_nrm.png
+  artifactKey: Guid(69201a6f234fd024b8aa991b2572560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioBodyFixRed_nrm.png using Guid(69201a6f234fd024b8aa991b2572560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1508bdf4e1c0b530b738205ac7b3da') in 0.014262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioBoomerangBodyFix_spc.png
+  artifactKey: Guid(6048039d1278e8b41b96a9a9620779a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioBoomerangBodyFix_spc.png using Guid(6048039d1278e8b41b96a9a9620779a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69146f79423a5d5ceaad85f96537f162') in 0.011346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioFireBodyFix_alb.dds
+  artifactKey: Guid(361e9debf6e81e04a8539e5390f79be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioFireBodyFix_alb.dds using Guid(361e9debf6e81e04a8539e5390f79be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26614f1b1003d832100799e0586db4e') in 0.013580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogWhiteTail_spc.png
+  artifactKey: Guid(3c33ad28446869548b4711b8a0ca7423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogWhiteTail_spc.png using Guid(3c33ad28446869548b4711b8a0ca7423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7022b181203c01db7354b4ee567058af') in 0.017436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogTail_alb.png
+  artifactKey: Guid(6aa7c9802b26eb448ad1c937df1749f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioRaccoonDogTail_alb.png using Guid(6aa7c9802b26eb448ad1c937df1749f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ecf1ae459043c438088f36ac3612cb') in 0.010531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioHandNew_alb.png
+  artifactKey: Guid(496484db5c1e1944a84cebf2ca3a03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioHandNew_alb.png using Guid(496484db5c1e1944a84cebf2ca3a03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e175df84000e0f5b0bf883d718329f4e') in 0.020694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioHandNew_nrm.png
+  artifactKey: Guid(07e4abf9502bdb145b537254b2c491d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioHandNew_nrm.png using Guid(07e4abf9502bdb145b537254b2c491d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9de225aaefd458704dbd076f73c846d') in 0.016788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Tex/MarioBoomerangBodyFix_alb.png
+  artifactKey: Guid(d04d7eb3637caa948a48a3cd2f6edf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Tex/MarioBoomerangBodyFix_alb.png using Guid(d04d7eb3637caa948a48a3cd2f6edf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43b14d7801918f3f3905e9a02eda5f4') in 0.011050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.950083 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/BlockPunchedJump.fbx
+  artifactKey: Guid(64a14441cff022542baa4831b21fd2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/BlockPunchedJump.fbx using Guid(64a14441cff022542baa4831b21fd2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387c9a710f7e7c305d0f570713162eb6') in 0.009472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CarryFront.fbx
+  artifactKey: Guid(c9b74b1e72cd714439119938fbd8968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CarryFront.fbx using Guid(c9b74b1e72cd714439119938fbd8968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad83ffcf6321d9a6ef635aa7e3d9c5d') in 0.008220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/BodyAttackLand.fbx
+  artifactKey: Guid(9614629a16c603c4eb5b2b21449c3707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/BodyAttackLand.fbx using Guid(9614629a16c603c4eb5b2b21449c3707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b017a7a7406ae73144e5266e2711d') in 0.008317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/BubbleWait.fbx
+  artifactKey: Guid(24a7db2d4a4951e47bb2894a8f7e5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/BubbleWait.fbx using Guid(24a7db2d4a4951e47bb2894a8f7e5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5660a5f5f3726d05db1c70ef88659d75') in 0.008517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectLeave.fbx
+  artifactKey: Guid(bf661f5947708c34993748e259e087d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectLeave.fbx using Guid(bf661f5947708c34993748e259e087d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c7c7b5ac05c5b0c5639af024f50783') in 0.006821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectPush.fbx
+  artifactKey: Guid(a61d46947f721ce4480393fa79c9a754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectPush.fbx using Guid(a61d46947f721ce4480393fa79c9a754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b04c8062b4e2ef5aa4c9fdd1f9e045') in 0.008636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/ClimeTreeHandStandEnd.fbx
+  artifactKey: Guid(7f7678dfb34b3da479e705a646811d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/ClimeTreeHandStandEnd.fbx using Guid(7f7678dfb34b3da479e705a646811d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dbbb27dfef1c46923384a651e93c08') in 0.006926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/BodyAttackReady.fbx
+  artifactKey: Guid(7cf5617c919802d48a9d433ee97861df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/BodyAttackReady.fbx using Guid(7cf5617c919802d48a9d433ee97861df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4005d38d212c1541faa674b8fdf3c0b2') in 0.008702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/BubbleJump.fbx
+  artifactKey: Guid(e242737e7e34128409a400e157471514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/BubbleJump.fbx using Guid(e242737e7e34128409a400e157471514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6230806896d1aa00f5f400a3810dcb50') in 0.007558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CarryUp.fbx
+  artifactKey: Guid(9b78b98e0d6f66e4f9a3aaa2d55dfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CarryUp.fbx using Guid(9b78b98e0d6f66e4f9a3aaa2d55dfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b186dfb32df88761f841210e6cfa24f') in 0.006173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/Boomerang.fbx
+  artifactKey: Guid(1ab9f32044d75b141b521d5edadfa6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/Boomerang.fbx using Guid(1ab9f32044d75b141b521d5edadfa6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebd67a229f3d4661cc654e8e148b1dc') in 0.007784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CarryFrontStart.fbx
+  artifactKey: Guid(5b605adc4acc7fe4383d10c1020f65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CarryFrontStart.fbx using Guid(5b605adc4acc7fe4383d10c1020f65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73e5b0f629802414b8808991a7616fb') in 0.007244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectBattleWait.fbx
+  artifactKey: Guid(d8f6731b1a39eba45a9b40af39a6eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectBattleWait.fbx using Guid(d8f6731b1a39eba45a9b40af39a6eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c319cd22c2d304eccf2c6b1eabc756bc') in 0.008418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/Catch.fbx
+  artifactKey: Guid(4a5b632edee93c447b87b3e00fd91fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/Catch.fbx using Guid(4a5b632edee93c447b87b3e00fd91fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd707407ad4613e3c1f808a1b52812331') in 0.007196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectJump.fbx
+  artifactKey: Guid(27b877579dc32d044a94e01b1a967ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectJump.fbx using Guid(27b877579dc32d044a94e01b1a967ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba88be3a2a8e9d5d8e21506ad8079a8') in 0.007261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CarryUpStart.fbx
+  artifactKey: Guid(41a3eca6d83d4f14c905840a4310e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CarryUpStart.fbx using Guid(41a3eca6d83d4f14c905840a4310e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0420a5bf3d0ee2fb572dc4489eb9fee') in 0.005678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectOpenLock.fbx
+  artifactKey: Guid(b9f608b66b40ad24c882d7234c16b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectOpenLock.fbx using Guid(b9f608b66b40ad24c882d7234c16b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfabd19d502a0745f18bfc99e3f4423') in 0.007671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/Brake.fbx
+  artifactKey: Guid(0dd1cd8d30e24e648987bd547d4012af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/Brake.fbx using Guid(0dd1cd8d30e24e648987bd547d4012af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbd3bc299bb8bf057d5832d8395776a') in 0.005613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectDash.fbx
+  artifactKey: Guid(62fb3767b099d1e48b6710ae57c40596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectDash.fbx using Guid(62fb3767b099d1e48b6710ae57c40596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921201b6ffe006b312bebc3f6905156a') in 0.007775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CarryFrontThrow.fbx
+  artifactKey: Guid(4d83ca7925f0d1c48b73e99a7a1b006c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CarryFrontThrow.fbx using Guid(4d83ca7925f0d1c48b73e99a7a1b006c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571641117e7278080a4e4c57f8d0267b') in 0.006600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CannonFlyLand.fbx
+  artifactKey: Guid(f99139bd94970324281b174459993f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CannonFlyLand.fbx using Guid(f99139bd94970324281b174459993f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10699d4bcbc605c13c32003cac486dbd') in 0.009430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/BodyAttack.fbx
+  artifactKey: Guid(1978b008c518b5d42862b64b797f17b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/BodyAttack.fbx using Guid(1978b008c518b5d42862b64b797f17b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3290e59a90f2b6cf9e72caeb4c6bb032') in 0.006061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectAppear.fbx
+  artifactKey: Guid(de28417cae94b264f8ec9cd60c5d3198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectAppear.fbx using Guid(de28417cae94b264f8ec9cd60c5d3198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2375ced4961743fa982550b7ab839735') in 0.006881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/BubbleStart.fbx
+  artifactKey: Guid(f635679eb9c2b5443982dd395121b0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/BubbleStart.fbx using Guid(f635679eb9c2b5443982dd395121b0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830f6d4550fd8447c24ecb6d428057d9') in 0.009989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectLand.fbx
+  artifactKey: Guid(25fb4f47d8344ed42a6c85e0e9c5d435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectLand.fbx using Guid(25fb4f47d8344ed42a6c85e0e9c5d435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb7dcdf222323f0a44d15fcb5f73124') in 0.007671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectOpenRoad.fbx
+  artifactKey: Guid(5e79db44c1c853141b17a95de5b3963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectOpenRoad.fbx using Guid(5e79db44c1c853141b17a95de5b3963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091163033f903acbeeb7b76257ea7042') in 0.006925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CourseSelectOpenGateKeeper.fbx
+  artifactKey: Guid(15057d22427919e4f9961d326bafd05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CourseSelectOpenGateKeeper.fbx using Guid(15057d22427919e4f9961d326bafd05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9830e1dffc0acb24a89011604497b21b') in 0.008060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CannonFly.fbx
+  artifactKey: Guid(2d5e2c44ccefa694381040c328dd8e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CannonFly.fbx using Guid(2d5e2c44ccefa694381040c328dd8e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d097aba8b3d42a064080a4cbac884a1') in 0.004952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/Carry.fbx
+  artifactKey: Guid(36e21834383ca4d49ab04d59665e6090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/Carry.fbx using Guid(36e21834383ca4d49ab04d59665e6090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8420b20f8b44da4a4ea605174dcab6ed') in 0.005808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/HelloMarioAssets/Player/Anim/CarryUpThrow.fbx
+  artifactKey: Guid(4fdc5e8d65f0fc2459d4c20945bbe0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Anim/CarryUpThrow.fbx using Guid(4fdc5e8d65f0fc2459d4c20945bbe0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da12716cb9d9eea8d7c33d8a2c33e0cd') in 0.008987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.382974 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mesh
+  artifactKey: Guid(5c03b6b9d80a6dd489e0fa8dda4d06ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mesh using Guid(5c03b6b9d80a6dd489e0fa8dda4d06ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eebe05cdb1b21fa83a78a6d59ca531a') in 0.001250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.714964 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mesh/Mario.FBX
+  artifactKey: Guid(a44b505c7c1cddf46af9d573bad3c309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mesh/Mario.FBX using Guid(a44b505c7c1cddf46af9d573bad3c309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2ee81ec697aaefd983d769c016ae88') in 0.551653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.374286 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat
+  artifactKey: Guid(2bd9d230e3aa3b040bf2ebe1ee6bb0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat using Guid(2bd9d230e3aa3b040bf2ebe1ee6bb0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892e5e76c9243c933783db8ff201caaf') in 0.002520 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006050 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1764ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (1504ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (511ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 314.9 MB.
+System memory in use after: 315.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4443.
+Total: 3.205290 ms (FindLiveObjects: 0.374159 ms CreateObjectMapping: 0.198469 ms MarkObjects: 2.577076 ms  DeleteObjects: 0.054682 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003914 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bardahan/Desktop/לימודים/פיתוח משחקי מחשב/MariosRevenge/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1831ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1563ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (588ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 314.5 MB.
+System memory in use after: 314.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4446.
+Total: 3.725165 ms (FindLiveObjects: 0.357963 ms CreateObjectMapping: 0.270248 ms MarkObjects: 3.033624 ms  DeleteObjects: 0.061931 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
