@@ -11,12 +11,14 @@ public class AnimationAndMovementController : MonoBehaviour
 
     int isWalkingHash;
     int isRunningHash;
+    int isAimingHash;
 
     Vector2 currentMovementInput;
     Vector3 currentMovement;
     Vector3 currentRunMovement;
     bool isMovmentPressed;
     bool isRunPressed;
+    bool isAimingPressed;
 
     public float rotationFactorPerFrame = 10.0f;
     public float runMultiplier = 3.0f;
@@ -30,20 +32,27 @@ public class AnimationAndMovementController : MonoBehaviour
 
         isWalkingHash = Animator.StringToHash("isWalking");
         isRunningHash = Animator.StringToHash("isRunning");
+        isAimingHash = Animator.StringToHash("isAiming");
 
         playerInput.CharicterControls.Move.started += onMovementInput;
         playerInput.CharicterControls.Move.canceled += onMovementInput;
         playerInput.CharicterControls.Move.performed += onMovementInput;
         playerInput.CharicterControls.Run.started += onRun;
         playerInput.CharicterControls.Run.canceled += onRun;
+        playerInput.CharicterControls.Aim.started += onAim;
+        playerInput.CharicterControls.Aim.canceled += onAim;
+    }
 
-
+    void onAim(InputAction.CallbackContext context)
+    {
+        isAimingPressed = context.ReadValueAsButton();
     }
 
     void onRun(InputAction.CallbackContext context)
     {
         isRunPressed = context.ReadValueAsButton();
     }
+
 
     void handleRotation()
     {
@@ -92,6 +101,16 @@ public class AnimationAndMovementController : MonoBehaviour
     {
         bool isWalking = animator.GetBool(isWalkingHash);
         bool isRunning = animator.GetBool(isRunningHash);
+        bool isAiming = animator.GetBool(isAimingHash);
+
+        if (isAimingPressed)
+        {
+            animator.SetLayerWeight(animator.GetLayerIndex("aim"), 1);
+        }
+        else
+        {
+            animator.SetLayerWeight(animator.GetLayerIndex("aim"), 0);
+        }
 
         if (isMovmentPressed && !isWalking)
         {

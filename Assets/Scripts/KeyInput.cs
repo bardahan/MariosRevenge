@@ -33,6 +33,14 @@ public class @KeyInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Aim"",
+                    ""type"": ""Button"",
+                    ""id"": ""3b1ac54e-4a1f-4b54-8932-65b9d8d60294"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -156,6 +164,17 @@ public class @KeyInput : IInputActionCollection, IDisposable
                     ""action"": ""Run"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bc4e479f-560e-4f3a-8865-b75b2145c298"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Aim"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -166,6 +185,7 @@ public class @KeyInput : IInputActionCollection, IDisposable
         m_CharicterControls = asset.FindActionMap("CharicterControls", throwIfNotFound: true);
         m_CharicterControls_Move = m_CharicterControls.FindAction("Move", throwIfNotFound: true);
         m_CharicterControls_Run = m_CharicterControls.FindAction("Run", throwIfNotFound: true);
+        m_CharicterControls_Aim = m_CharicterControls.FindAction("Aim", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -217,12 +237,14 @@ public class @KeyInput : IInputActionCollection, IDisposable
     private ICharicterControlsActions m_CharicterControlsActionsCallbackInterface;
     private readonly InputAction m_CharicterControls_Move;
     private readonly InputAction m_CharicterControls_Run;
+    private readonly InputAction m_CharicterControls_Aim;
     public struct CharicterControlsActions
     {
         private @KeyInput m_Wrapper;
         public CharicterControlsActions(@KeyInput wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_CharicterControls_Move;
         public InputAction @Run => m_Wrapper.m_CharicterControls_Run;
+        public InputAction @Aim => m_Wrapper.m_CharicterControls_Aim;
         public InputActionMap Get() { return m_Wrapper.m_CharicterControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -238,6 +260,9 @@ public class @KeyInput : IInputActionCollection, IDisposable
                 @Run.started -= m_Wrapper.m_CharicterControlsActionsCallbackInterface.OnRun;
                 @Run.performed -= m_Wrapper.m_CharicterControlsActionsCallbackInterface.OnRun;
                 @Run.canceled -= m_Wrapper.m_CharicterControlsActionsCallbackInterface.OnRun;
+                @Aim.started -= m_Wrapper.m_CharicterControlsActionsCallbackInterface.OnAim;
+                @Aim.performed -= m_Wrapper.m_CharicterControlsActionsCallbackInterface.OnAim;
+                @Aim.canceled -= m_Wrapper.m_CharicterControlsActionsCallbackInterface.OnAim;
             }
             m_Wrapper.m_CharicterControlsActionsCallbackInterface = instance;
             if (instance != null)
@@ -248,6 +273,9 @@ public class @KeyInput : IInputActionCollection, IDisposable
                 @Run.started += instance.OnRun;
                 @Run.performed += instance.OnRun;
                 @Run.canceled += instance.OnRun;
+                @Aim.started += instance.OnAim;
+                @Aim.performed += instance.OnAim;
+                @Aim.canceled += instance.OnAim;
             }
         }
     }
@@ -256,5 +284,6 @@ public class @KeyInput : IInputActionCollection, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnRun(InputAction.CallbackContext context);
+        void OnAim(InputAction.CallbackContext context);
     }
 }

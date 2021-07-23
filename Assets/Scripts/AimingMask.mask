@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AimingMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: AllRoot
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip/LegL1
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip/LegL1/LegL2
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip/LegL1/LegL2/FootL
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip/LegL1/LegL2/FootL/ToeL
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip/LegR1
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip/LegR1/LegR2
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip/LegR1/LegR2/FootR
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Hip/LegR1/LegR2/FootR/ToeR
+    m_Weight: 0
+  - m_Path: AllRoot/JointRoot/Spine1
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/Head
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/ShoulderL
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/ShoulderL/ArmL1
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/ShoulderL/ArmL1/ArmL2
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/ShoulderL/ArmL1/ArmL2/HandL
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/ShoulderR
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/ShoulderR/ArmR1
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/ShoulderR/ArmR1/ArmR2
+    m_Weight: 1
+  - m_Path: AllRoot/JointRoot/Spine1/Spine2/ShoulderR/ArmR1/ArmR2/HandR
+    m_Weight: 1
+  - m_Path: Eyeball__MarioEyeMat00
+    m_Weight: 0
+  - m_Path: Eyelid00__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Eyelid01__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face00__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face00__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: Face01__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face01__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: Face02__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face02__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: Face03__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face03__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: Face04__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face04__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: Face05__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face05__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: Face06__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face06__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: Face07__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face07__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: Face08__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Face08__MarioHigeMat00
+    m_Weight: 0
+  - m_Path: HandL00__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandL01__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandL02__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandL03__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandL04__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandL05__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandL06__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandR00__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandR01__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandR02__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandR03__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandR04__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandR05__MarioHandMat00
+    m_Weight: 0
+  - m_Path: HandR06__MarioHandMat00
+    m_Weight: 0
+  - m_Path: Mario__MarioBodyMat00
+    m_Weight: 0
+  - m_Path: Mario__MarioBodyMat01
+    m_Weight: 0
+  - m_Path: Mario__MarioFaceMat00
+    m_Weight: 0
+  - m_Path: Mario__MarioMetalMat00
+    m_Weight: 0
+  - m_Path: Mario__MarioShoesMat00
+    m_Weight: 0
+  - m_Path: MarioBoomerang__MarioBoomerangBodyMat00
+    m_Weight: 0
+  - m_Path: MarioBoomerang__MarioBoomerangFaceMat00
+    m_Weight: 0
+  - m_Path: MarioBoomerang__MarioBoomerangSuitsMat00
+    m_Weight: 0
+  - m_Path: MarioBoomerang__MarioBoomerangSuitsMat01
+    m_Weight: 0
+  - m_Path: MarioEye
+    m_Weight: 0
+  - m_Path: MarioEye/Eyeball
+    m_Weight: 0
+  - m_Path: MarioEye/Eyelid00
+    m_Weight: 0
+  - m_Path: MarioEye/Eyelid01
+    m_Weight: 0
+  - m_Path: MarioFace
+    m_Weight: 0
+  - m_Path: MarioFace/Face00
+    m_Weight: 1
+  - m_Path: MarioFace/Face01
+    m_Weight: 1
+  - m_Path: MarioFace/Face02
+    m_Weight: 1
+  - m_Path: MarioFace/Face03
+    m_Weight: 1
+  - m_Path: MarioFace/Face04
+    m_Weight: 1
+  - m_Path: MarioFace/Face05
+    m_Weight: 1
+  - m_Path: MarioFace/Face06
+    m_Weight: 1
+  - m_Path: MarioFace/Face07
+    m_Weight: 1
+  - m_Path: MarioFace/Face08
+    m_Weight: 1
+  - m_Path: MarioHandL
+    m_Weight: 0
+  - m_Path: MarioHandL/HandL00
+    m_Weight: 0
+  - m_Path: MarioHandL/HandL01
+    m_Weight: 0
+  - m_Path: MarioHandL/HandL02
+    m_Weight: 0
+  - m_Path: MarioHandL/HandL03
+    m_Weight: 0
+  - m_Path: MarioHandL/HandL04
+    m_Weight: 0
+  - m_Path: MarioHandL/HandL05
+    m_Weight: 0
+  - m_Path: MarioHandL/HandL06
+    m_Weight: 0
+  - m_Path: MarioHandR
+    m_Weight: 0
+  - m_Path: MarioHandR/HandR00
+    m_Weight: 0
+  - m_Path: MarioHandR/HandR01
+    m_Weight: 0
+  - m_Path: MarioHandR/HandR02
+    m_Weight: 0
+  - m_Path: MarioHandR/HandR03
+    m_Weight: 0
+  - m_Path: MarioHandR/HandR04
+    m_Weight: 0
+  - m_Path: MarioHandR/HandR05
+    m_Weight: 0
+  - m_Path: MarioHandR/HandR06
+    m_Weight: 0
+  - m_Path: MarioRaccoonDog__MarioRaccoonDogBodyMat00
+    m_Weight: 0
+  - m_Path: MarioRaccoonDog__MarioRaccoonDogHairMat00
+    m_Weight: 0
