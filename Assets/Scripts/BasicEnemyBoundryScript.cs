@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class BasicEnemyBoundryScript : MonoBehaviour
 {
-    public GameObject connectedEnemy;
+    public BasicEnemyScript connectedEnemy;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-           
+            connectedEnemy.StartAttack(other.gameObject.transform);
         }
     }
 }
