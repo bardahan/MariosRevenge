@@ -137,7 +137,7 @@ CharacterController:
   m_Height: 1.6
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.7
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.8, z: 0}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 269098392}
   - component: {fileID: 269098391}
   - component: {fileID: 269098390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 685273026}
   - component: {fileID: 685273025}
   - component: {fileID: 685273024}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ Camera:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
-  m_FOVAxisMode: 0
+  m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
   m_FocalLength: 50
@@ -574,13 +574,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.74201167, y: -0, z: 0.67038697, w: 0}
-  m_LocalPosition: {x: -0.136, y: -0.169, z: -0.079}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -0.224, y: 0, z: 0.00000018434639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5251728999716833027}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -95.806, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 180}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2762,6 +2762,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1885335131350097854}
   - component: {fileID: 54022851}
+  - component: {fileID: 3202437055107378606}
+  - component: {fileID: 3202437055107378607}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Untagged
@@ -2769,6 +2771,46 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3202437055107378606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3202437055107378605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7b832ca68fe4a0db3cd4ced23496c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 54022851}
+  speed: 12
+  gravity: -9.81
+  jumpHight: 3
+  groundCheck: {fileID: 8765561447724146172}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!95 &3202437055107378607
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3202437055107378605}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b984ed9779e24456a8274c919d851ad, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &3213383268200963296
 Transform:
   m_ObjectHideFlags: 0
@@ -4031,7 +4073,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2388186988252499368}
-  m_LocalRotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0, z: -0.70710677, w: 0.70710677}
   m_LocalPosition: {x: -0.25860855, y: 0.000005968628, z: -6.93035e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
