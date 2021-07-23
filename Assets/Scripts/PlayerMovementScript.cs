@@ -21,6 +21,7 @@ public class PlayerMovementScript : MonoBehaviour
     bool isMovmentPressed;
     bool isRunPressed;
     bool isAimingPressed;
+    bool isJumpPressed;
 
     int isWalkingHash;
     int isRunningHash;
@@ -29,8 +30,8 @@ public class PlayerMovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        setKeyPressed();
         handelAnimation();
-
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -42,7 +43,7 @@ public class PlayerMovementScript : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-        if (Input.GetButtonDown("Jump"))
+        if (isJumpPressed)
         {
             velocity.y += Mathf.Sqrt(jumpHight * -2f * gravity);
         }
@@ -60,6 +61,35 @@ public class PlayerMovementScript : MonoBehaviour
         isWalkingHash = Animator.StringToHash("isWalking");
         isRunningHash = Animator.StringToHash("isRunning");
         isAimingHash = Animator.StringToHash("isAiming");
+    }
+
+    void setKeyPressed()
+    {
+
+        if (Input.GetButton("Run"))
+        {
+            isRunPressed = true;
+        }
+        else
+        {
+            isRunPressed = false;
+        }
+        if (Input.GetButtonDown("Jump"))
+        {
+            isJumpPressed = true;
+        }
+        else
+        {
+            isJumpPressed = false;
+        }
+        if (Input.GetMouseButton(1))
+        {
+            isAimingPressed = true;
+        }
+        else
+        {
+            isAimingPressed = false;
+        }
     }
 
     void handelAnimation()
