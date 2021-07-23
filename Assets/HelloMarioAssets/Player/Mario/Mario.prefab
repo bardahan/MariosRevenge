@@ -2218,6 +2218,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1885335131331726593}
+  - component: {fileID: 6749101260884386664}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Untagged
@@ -2269,6 +2270,88 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6749101260884386664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3202437055120506642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8418b0b9634b1892b0268dd9c2743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneShape: 1
+  drawBones: 1
+  drawTripods: 0
+  boneSize: 1
+  tripodSize: 1
+  boneColor: {r: 0, g: 0, b: 1, a: 0.5}
+  m_Transforms:
+  - {fileID: 1885335131331726593}
+  - {fileID: 4458292423696549759}
+  - {fileID: 6615340498588871213}
+  - {fileID: 8403208379441456510}
+  - {fileID: 3726762552766475559}
+  - {fileID: 6771145052653249416}
+  - {fileID: 4948721560898031871}
+  - {fileID: 5689889996190570084}
+  - {fileID: 8787448639543617330}
+  - {fileID: 6774300898649108032}
+  - {fileID: 8765561447771836227}
+  - {fileID: 4220850312715505873}
+  - {fileID: 1008094484552021543}
+  - {fileID: 8424672511256085203}
+  - {fileID: 5251728999763482044}
+  - {fileID: 1314152132264308341}
+  - {fileID: 1873206715113370990}
+  - {fileID: 6719697946146210679}
+  - {fileID: 7359813142121872541}
+  - {fileID: 8441809105608967303}
+  - {fileID: 2345507037034735335}
+  - {fileID: 7903247908410664430}
+  - {fileID: 5077917653991833186}
+  - {fileID: 5883843686716435235}
+  - {fileID: 3498831422616692146}
+  - {fileID: 816151371847293126}
+  - {fileID: 1706127348296253806}
+  - {fileID: 2541471199153055179}
+  - {fileID: 9136856526573626962}
+  - {fileID: 843084394128843408}
+  - {fileID: 7086407782443511134}
+  - {fileID: 2911996978251553576}
+  - {fileID: 4272096886574225933}
+  - {fileID: 8557427733691977713}
+  - {fileID: 290604034295316298}
+  - {fileID: 861451606589905560}
+  - {fileID: 1599951466763062068}
+  - {fileID: 5904377947276982190}
+  - {fileID: 8572791983017131223}
+  - {fileID: 8087738642848193607}
+  - {fileID: 1333039863924734495}
+  - {fileID: 4465420451466051933}
+  - {fileID: 8030930703232216388}
+  - {fileID: 2139375218270203953}
+  - {fileID: 627398760055569750}
+  - {fileID: 5148248249912489837}
+  - {fileID: 3596859327741896763}
+  - {fileID: 3485251176615609502}
+  - {fileID: 4561630869388286893}
+  - {fileID: 8660052599248122950}
+  - {fileID: 8172434357094745772}
+  - {fileID: 1014424747866414905}
+  - {fileID: 2984018622979344682}
+  - {fileID: 2089791197173392865}
+  - {fileID: 6417825317808805380}
+  - {fileID: 3647163060398280881}
+  - {fileID: 4186457116432840427}
+  - {fileID: 4961016973728135047}
+  - {fileID: 2889030457064416569}
+  - {fileID: 7628064524180239802}
+  - {fileID: 7626784626867632495}
+  - {fileID: 994739229972832239}
+  - {fileID: 8026616484400761634}
 --- !u!1 &3313910184849596153
 GameObject:
   m_ObjectHideFlags: 0
