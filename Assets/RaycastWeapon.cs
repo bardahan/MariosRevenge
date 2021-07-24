@@ -8,6 +8,8 @@ public class RaycastWeapon : MonoBehaviour
     public Transform raycastOrigin;
     public Transform raycastDest;
 
+    public ParticleSystem gunFlash;
+
     Ray ray;
     RaycastHit hitInfo;
     public static RaycastHit lastHitInfo;
@@ -15,6 +17,7 @@ public class RaycastWeapon : MonoBehaviour
     public void StartFiring()
     {
         isFiring = true;
+        gunFlash.Emit(1);
         ray.origin = raycastOrigin.position;
         ray.direction = raycastDest.position - raycastOrigin.position;
         if (Physics.Raycast(ray, out hitInfo))
