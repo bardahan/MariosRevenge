@@ -34,11 +34,11 @@ public class AimingScript : MonoBehaviour
     {
         if (Input.GetMouseButton(1))
         {
-            //aimLayer.weight += Time.deltaTime / aimDuration;
+            aimLayer.weight += Time.deltaTime / aimDuration;
         }
         else
         {
-            //aimLayer.weight -= Time.deltaTime / aimDuration;
+            aimLayer.weight -= Time.deltaTime / aimDuration;
         }
 
         if (Input.GetButton("Fire1") && Input.GetMouseButton(1))

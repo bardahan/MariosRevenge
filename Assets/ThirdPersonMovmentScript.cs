@@ -110,16 +110,16 @@ public class ThirdPersonMovmentScript : MonoBehaviour
     {
         bool isWalking = playerAnimator.GetBool(isWalkingHash);
         bool isRunning = playerAnimator.GetBool(isRunningHash);
-        bool isAiming = playerAnimator.GetBool(isAimingHash);
+        //bool isAiming = playerAnimator.GetBool(isAimingHash);
 
-        if (isAimingPressed)
-        {
-            playerAnimator.SetLayerWeight(playerAnimator.GetLayerIndex("aim"), 1);
-        }
-        else
-        {
-            playerAnimator.SetLayerWeight(playerAnimator.GetLayerIndex("aim"), 0);
-        }
+        //if (isAimingPressed)
+        //{
+        //    playerAnimator.SetLayerWeight(playerAnimator.GetLayerIndex("aim"), 1);
+        //}
+        //else
+        //{
+        //    playerAnimator.SetLayerWeight(playerAnimator.GetLayerIndex("aim"), 0);
+        //}
 
         if (isMovmentPressed && !isWalking)
         {
