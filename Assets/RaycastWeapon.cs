@@ -10,6 +10,7 @@ public class RaycastWeapon : MonoBehaviour
 
     Ray ray;
     RaycastHit hitInfo;
+    public static RaycastHit lastHitInfo;
 
     public void StartFiring()
     {
@@ -18,6 +19,7 @@ public class RaycastWeapon : MonoBehaviour
         ray.direction = raycastDest.position - raycastOrigin.position;
         if (Physics.Raycast(ray, out hitInfo))
         {
+            lastHitInfo = hitInfo;
             Debug.DrawLine(ray.origin, hitInfo.point, Color.red, 1.0f);
         }
     }

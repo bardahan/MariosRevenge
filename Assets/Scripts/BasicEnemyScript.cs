@@ -30,7 +30,7 @@ public class BasicEnemyScript : MonoBehaviour
     void Start()
     {
         index = 0;
-        speed = runSpeed;
+        speed = walkSpeed;
         isWalking = true;
         isAttackInProgress = false;
         isAttacking = false;
