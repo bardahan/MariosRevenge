@@ -23,8 +23,7 @@ public class BasicEnemyScript : MonoBehaviour
     public float life;
     public float singleAttackDuration;
     public float attackDistance;
-    public int damage;
-    public int bulletDamage;
+    public float damage = 3.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -112,6 +111,7 @@ public class BasicEnemyScript : MonoBehaviour
         isWalking = false;
         isAttacking = true;
         animator.SetBool("isAttacking", true);
+        player.transform.GetComponent<PlayerHealthScript>().TakeDamege(damage);
 
         yield return new WaitForSeconds(singleAttackDuration);
 
@@ -152,11 +152,8 @@ public class BasicEnemyScript : MonoBehaviour
         animator.SetBool("isWaiting", true);
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void TakeDamge(float amount)
     {
-        if (other.gameObject.tag == "Player")
-        {
-            life = 0;
-        }
+        life -= amount;
     }
 }

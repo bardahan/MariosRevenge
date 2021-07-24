@@ -49,6 +49,10 @@ public class AimingScript : MonoBehaviour
         {
             weapon.StopFiring();
         }
+        if (weapon.isFiring)
+        {
+            weapon.UpdateFiring(Time.deltaTime);
+        }
     }
 
 }

@@ -22,7 +22,6 @@ public class ThirdPersonMovmentScript : MonoBehaviour
     private bool isMovmentPressed;
     private bool isRunPressed;
     private bool isJumpPressed;
-    private bool isAimingPressed;
 
     int isWalkingHash;
     int isRunningHash;
@@ -89,14 +88,6 @@ public class ThirdPersonMovmentScript : MonoBehaviour
         {
             isJumpPressed = false;
         }
-        if (Input.GetMouseButton(1))
-        {
-            isAimingPressed = true;
-        }
-        else
-        {
-            isAimingPressed = false;
-        }
     }
 
     void Awake()
@@ -110,16 +101,6 @@ public class ThirdPersonMovmentScript : MonoBehaviour
     {
         bool isWalking = playerAnimator.GetBool(isWalkingHash);
         bool isRunning = playerAnimator.GetBool(isRunningHash);
-        //bool isAiming = playerAnimator.GetBool(isAimingHash);
-
-        //if (isAimingPressed)
-        //{
-        //    playerAnimator.SetLayerWeight(playerAnimator.GetLayerIndex("aim"), 1);
-        //}
-        //else
-        //{
-        //    playerAnimator.SetLayerWeight(playerAnimator.GetLayerIndex("aim"), 0);
-        //}
 
         if (isMovmentPressed && !isWalking)
         {
