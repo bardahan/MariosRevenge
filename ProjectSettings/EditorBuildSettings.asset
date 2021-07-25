@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelOne.unity
     guid: e0a7ed02294164b38a371d6be54ce5d2
+  - enabled: 1
+    path: Assets/Scenes/BouncerLevel.unity
+    guid: 6a7830c734f384e73be228d45ad92277
+  - enabled: 1
+    path: Assets/Scenes/BossScene.unity
+    guid: 5e3e4eb5efac54bf4aac210805988d6e
   m_configObjects: {}
