@@ -51,9 +51,14 @@ public class RaycastWeapon : MonoBehaviour
             hitEffect.Emit(1);
 
             BasicEnemyScript target = hitInfo.transform.GetComponent<BasicEnemyScript>();
+            BouncerAgent target2 = hitInfo.transform.GetComponent<BouncerAgent>();
             if (target != null)
             {
                 target.TakeDamge(damage);
+            }
+            if (target2 != null)
+            {
+                target2.TakeDamge(damage);
             }
         }
     }
