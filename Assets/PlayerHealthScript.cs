@@ -12,6 +12,10 @@ public class PlayerHealthScript : MonoBehaviour
     {
         health -= impact;
         playerHealthBar.SetHealth(health);
+        if(health <= 0)
+        {
+            FindObjectOfType<GameManager>().StartPlayerLoseManu();
+        }
     }
 
     public void AddHealth(float healthToAdd)

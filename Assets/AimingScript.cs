@@ -17,8 +17,6 @@ public class AimingScript : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
 
         weapon = GetComponentInChildren<RaycastWeapon>();
     }
