@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject loseMenuUI;
 
+    public GraphicRaycaster pauseMenuUIRC;
+    public GraphicRaycaster loseMenuUIRC;
+
     private void Start()
     {
         Time.timeScale = 1;
