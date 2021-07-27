@@ -22,6 +22,7 @@ public class ThirdPersonMovmentScript : MonoBehaviour
     private bool isMovmentPressed;
     private bool isRunPressed;
     private bool isJumpPressed;
+    private bool isCurrentlyJump = false;
 
     int isWalkingHash;
     int isRunningHash;
@@ -43,6 +44,10 @@ public class ThirdPersonMovmentScript : MonoBehaviour
         {
             velocity.y = 0;
         }
+        if (isGrounded && isJumpPressed)
+        {
+            velocity.y += Mathf.Sqrt(jumpHight * -2f * gravity);
+        }
         velocity.y += gravity * Time.deltaTime;
         Vector3 direction = new Vector3(horisontal, 0f, vertical).normalized;
         controller.Move(velocity * Time.deltaTime);
@@ -57,14 +62,8 @@ public class ThirdPersonMovmentScript : MonoBehaviour
             if (isRunPressed)
             {
                 controller.Move(moveDir.normalized * speed * 2 * Time.deltaTime);
-
             }
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-        }
-
-        if (isJumpPressed)
-        {
-            velocity.y += Mathf.Sqrt(jumpHight * -2f * gravity);
         }
 
     }
