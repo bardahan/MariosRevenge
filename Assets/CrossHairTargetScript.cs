@@ -21,11 +21,10 @@ public class CrossHairTargetScript : MonoBehaviour
     void Update()
     {
         ray.origin = mainCam.transform.position;
-        ray.direction = amingDot.transform.position;
-        if (Physics.Raycast(ray, out hitInfo))
+        ray.direction = mainCam.transform.forward;
+        if(Physics.Raycast(ray, out hitInfo))
         {
             transform.position = hitInfo.point;
-            amingDot.transform.TransformDirection(hitInfo.point);
         }
         else
         {
