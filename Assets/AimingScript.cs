@@ -10,7 +10,6 @@ public class AimingScript : MonoBehaviour
 
     Camera mainCamera;
     public Rig aimLayer;
-
     RaycastWeapon weapon;
 
     // Start is called before the first frame update
