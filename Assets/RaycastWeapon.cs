@@ -52,6 +52,8 @@ public class RaycastWeapon : MonoBehaviour
 
             BasicEnemyScript target = hitInfo.transform.GetComponent<BasicEnemyScript>();
             BouncerAgent target2 = hitInfo.transform.GetComponent<BouncerAgent>();
+            BoxScript target3 = hitInfo.transform.GetComponent<BoxScript>();
+
             if (target != null)
             {
                 target.TakeDamge(damage);
@@ -59,6 +61,10 @@ public class RaycastWeapon : MonoBehaviour
             if (target2 != null)
             {
                 target2.TakeDamge(damage);
+            }
+            if (target3 != null)
+            {
+                target3.Crack();
             }
         }
     }
