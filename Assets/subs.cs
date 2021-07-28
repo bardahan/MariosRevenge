@@ -38,6 +38,10 @@ public class subs : MonoBehaviour
         textBox.GetComponent<Text>().text = "Peach: I can explain!";
         yield return new WaitForSeconds(3);
         textBox.GetComponent<Text>().text = "Mario: No need for explanation... Luigi! I WILL <color=#ff0000ff>Revenge</color>";
+        yield return new WaitForSeconds(11);
+        textBox.GetComponent<Text>().text = "";
+        yield return new WaitForSeconds(5);
+        textBox.GetComponent<Text>().text = "";
         end = true;
 
     }
