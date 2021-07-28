@@ -6,12 +6,15 @@ public class GameManager : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public static bool IsPlayerLost = false;
+    public static bool IsPlayerWin = false;
 
     public GameObject pauseMenuUI;
     public GameObject loseMenuUI;
+    public GameObject winMenuUI;
 
     public GraphicRaycaster pauseMenuUIRC;
     public GraphicRaycaster loseMenuUIRC;
+    public GraphicRaycaster winMenuUIRC;
 
     private void Start()
     {
@@ -20,11 +23,12 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         pauseMenuUI.SetActive(false);
         loseMenuUI.SetActive(false);
+        winMenuUI.SetActive(false);
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !IsPlayerLost)
+        if (Input.GetKeyDown(KeyCode.Escape) && !IsPlayerLost && !IsPlayerWin)
         {
             if (GameIsPaused)
             {
@@ -44,6 +48,16 @@ public class GameManager : MonoBehaviour
         IsPlayerLost = true;
         GameIsPaused = true;
         loseMenuUI.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void StartPlayerWinManu()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+        IsPlayerWin = true;
+        GameIsPaused = true;
+        winMenuUI.SetActive(true);
         Time.timeScale = 0;
     }
 

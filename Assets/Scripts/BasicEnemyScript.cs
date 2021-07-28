@@ -24,6 +24,7 @@ public class BasicEnemyScript : MonoBehaviour
     public float singleAttackDuration;
     public float attackDistance;
     public float damage = 3.0f;
+    public bool isGameFinisher = false;
 
     // Start is called before the first frame update
     void Start()
@@ -103,6 +104,10 @@ public class BasicEnemyScript : MonoBehaviour
     {
         animator.SetBool("isDie", true);
         yield return new WaitForSeconds(2);
+        if (isGameFinisher)
+        {
+            FindObjectOfType<GameManager>().StartPlayerWinManu();
+        }
         Destroy(gameObject);
     }
 
